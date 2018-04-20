@@ -1,4 +1,3 @@
-
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -33,7 +32,7 @@ def get_links(url):
     time.sleep(1)
 
 
-base_url = "https://www.craft-store.jp"
+base_url = "https://bitcoinjim.com"
 get_links(base_url)
 
 for url in check_links:

@@ -24,7 +24,7 @@ for price in prices:
     price = price.strip()
     price = int(price)
     print(price)
-    price_list.append(price     
+    price_list.append(price
 mn_price = min(price_list)
 mn_price = "{:,}".format(mn_price)
 
